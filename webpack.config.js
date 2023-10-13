@@ -11,7 +11,7 @@ module.exports = {
   ],
   output: {
     filename: "flashcard.js",
-    path: path.resolve(__dirname, "notebook", "static", "dist"),
+    path: path.resolve(__dirname, "flashcard", "static", "dist"),
   },
 
   module: {
