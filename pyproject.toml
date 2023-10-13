@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "FlashCard"
+version = "0.0.0"
+authors = 
+  { name="Oyebamijo", email="gloryoyebamijo@gmail.com" }
+]
+description = "Flashcard is a simple learning tool that helps you memorize anything. It is a simple app that allows you to create flashcards and organize them into the various subject of your interests. You can then quiz yourself on the decks you created."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/weirdpablo/flashcard"
+"Bug Tracker" = "https://github.com/weirdpablo/flashcard/issues"

@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "name": "flashcard",
+    "builds": [
+      {
+        "src": "flashcard/main.py",
+        "use": "@vercel/python"
+      }
+    ],
+  
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/flashcard/main.py"
+      }
+    ]
+  }
+  

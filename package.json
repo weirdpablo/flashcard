@@ -1,0 +1,21 @@
+{
+    "name": "flashcard",
+    "version": "0.0.0",
+    "description": "Flashcard is a simple learning tool that helps you memorize anything. It is a simple app that allows you to create flashcards and organize them into the various subject of your interests. You can then quiz yourself on the decks you created.",
+    "main": "./flashcard/static/base.js",
+    "scripts": {
+        "test": "exit 0",
+        "pack": "webpack --config webpack.config.js"
+    },
+    "dependencies": {
+        "semver": "^7.5.4"
+    },
+    "author": "Oyebamijo",
+    "license": "MIT",
+    "devDependencies": {
+        "css-loader": "^6.8.1",
+        "html-webpack-plugin": "^5.5.3",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4"
+    }
+}
