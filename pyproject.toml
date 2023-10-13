@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "FlashCard"
 version = "0.1.0"
-authors = 
+authors = [
   { name="Oyebamijo", email="gloryoyebamijo@gmail.com" }
 ]
 description = "Flashcard is a simple learning tool that helps you memorize anything. It is a simple app that allows you to create flashcards and organize them into the various subject of your interests. You can then quiz yourself on the decks you created."
